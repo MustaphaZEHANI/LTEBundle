@@ -1,0 +1,17 @@
+<bundlespec>
+	<manifest>
+		<name>LTEBundle Sample</name>
+		<symbolicName>io.macchina.samples.lte</symbolicName>
+		<version>1.0.0</version>
+		<vendor>Applied Informatics</vendor>
+		<copyright>(c) 2018-2020, Applied Informatics Software Engineering GmbH</copyright>
+		<activator>
+			<class>LTEBundle::BundleActivator</class>
+			<library>io.macchina.samples.lte</library>
+		</activator>
+	</manifest>
+	<code>
+		bin/${osName}/${osArch}/*.so,
+		bin/${osName}/${osArch}/*.dylib,
+	</code>
+</bundlespec>
